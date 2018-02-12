@@ -1,1 +1,1 @@
-web: python ResizerBot.py 
+web: gunicorn ResizerBot.py 

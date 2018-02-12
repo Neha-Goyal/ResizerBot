@@ -1,1 +1,0 @@
-web: gunicorn ResizerBot.py --log-file - 
