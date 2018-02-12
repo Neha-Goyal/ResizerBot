@@ -1,1 +1,1 @@
-web: gunicorn ResizerBot.py 
+web: python ResizerBot.py runserver 0.0.0.0:5000
