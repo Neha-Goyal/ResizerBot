@@ -1,1 +1,1 @@
-eb: python ResizerBot.py 
+web: python ResizerBot.py 
