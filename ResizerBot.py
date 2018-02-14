@@ -1,7 +1,7 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from engine import photo_resize, doc_resize
 
-token="515189610:AAHrVWce3diDaw6StmOHN9O7pmnNVwLcH6s"
+token=<token>
 
 def start(bot,update):
     bot.sendMessage(chat_id=update.message.chat_id, text=("Hi %s. Send me jpg/png file, I'll reduce its size!" %update.message.from_user.name))
